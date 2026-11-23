@@ -1,0 +1,21 @@
+{
+  "name": "flair-auto-responder",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc --noEmit",
+    "dev": "devvit playtest",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@devvit/public-api": "0.15.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "devvit": "0.15.2",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  },
+  "license": "BSD-3-Clause"
+}

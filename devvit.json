@@ -1,0 +1,13 @@
+{
+  "name": "flair-auto-responder",
+  "blocks": {
+    "entry": "src/main.ts",
+    "triggers": [
+      "onPostCreate",
+      "onPostFlairUpdate"
+    ]
+  },
+  "marketingAssets": {
+    "icon": "assets/icon.png"
+  }
+}
